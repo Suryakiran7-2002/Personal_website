@@ -30,4 +30,5 @@ def cerificates():
 def projects():
     return render_template('error.html')
 
-app.run()
+if __name__ == '__main__':  
+    app.run()
