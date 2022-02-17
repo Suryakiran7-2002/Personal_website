@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Kiran</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    
+    <div class="container-lg font">
+
+        <div class="row justify-content-center text-center my-5">
+
+            <div class="col-8 bk-white py-2">
+                <h3 class = 'fs-1'>Hello!</h3>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-center text-center">
+            
+                <div class="col-lg-2 col-sm-3 py-1 bk-white mx-1 mb-2 ">
+                    <a href="/"><p class="no-margin">About Me</p></a>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 py-1 bk-white mx-1  mb-2">
+                    <a href="/education"><p class="no-margin">Education</p></a>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 py-1 bk-white mx-1 mb-2">
+                    <a href="/certificates"><p class="no-margin">Certificates</p></a>
+                </div>
+
+                <div class="col-lg-2  col-sm-3 py-1 bk-white mx-1 mb-2">
+                    <a href="/projects"><p class="no-margin">Projects</p></a>
+                </div>
+            
+
+                
+        </div>
+        <hr>
+    </div>
+
+
+
+    {% block content %}
+    {% endblock %}
+
+    <div class="container-fluid bk-dark mb-0 text-light text-center">
+        <p class="fs-5 mb-0 py-5">Thank You for visiting my page.</p>
+    </div>
+    <script src="../static/js/bootstrap.js"></script>
+</body>
+</html>
