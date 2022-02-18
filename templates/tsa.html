@@ -1,0 +1,67 @@
+{%extends "template.html" %}
+{%block content%}
+
+<div class="container bk-white font mb-5 pb-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-12 text-center py-3">
+
+            <h3>Twitter Sentiment Analysis</h3>
+        </div>
+        <hr>
+
+        <div class="col-12 text-center py-3">
+
+            <p class="text-danger">Still under development</p>
+        </div>
+        <hr>
+
+        <div class="col-sm-12 col-md-3 text-center">
+            <img src="../static/images/logos/twitter.png" class="logo" alt="">
+        </div>
+
+        <div class="col-sm-12 col-md-8 text-start pt-3">
+            <p>It is really important for brands, or movie production companies that they understand how their product or movie is doing in the real world, than
+                just accept results off limited number of critics.
+                This twitter sentiment analysis, takes tweets from tweeter related to a product and using machine learning, it output what people actually thing
+                about the product</p>
+        </div>
+
+        <hr>
+        <div class="col-12 text-center pt-3">
+            <p class="fs-5">Technologies Used</p>
+        </div>
+
+        <div class="col-2 text-start pt-3">
+            <ul>
+                <li>Scikit Learn</li>
+                <li>Naive bayes</li>
+                <li>tweepy</li>
+                <li>Flask</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="col-12 text-center pb-3">
+            <img src="../static/tsa/1.png" style="width: 70em;" alt="">
+        </div>
+
+        <hr>
+        <div class="col-9 text-start">
+            <p>This website askes user to enter a specific query or a hashtag.
+                This model retrives tweets from tweeter, using twitter api, and performs senitment analysis on them.
+                It then divides the tweets into positive and negative tweets and shows the tweets on the website.
+            </p>
+
+            <p>
+                Link for the application cannot be provided, as the project is still under development and is currently not beign hosted.
+            </p>
+        </div>
+        
+
+        
+
+
+    </div>
+</div>
+{% endblock %}

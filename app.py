@@ -36,11 +36,24 @@ def cerificates_h():
 
 @app.route('/certificates/workshops')
 def cerificates_w():
-    return render_template('error.html')
+    return render_template('workshops.html')
 
 @app.route('/projects')
 def projects():
-    return render_template('error.html')
+    return render_template('projects.html')
+
+@app.route('/projects/tsa')
+def projects_tsa():
+    return render_template('tsa.html')
+
+@app.route('/projects/fs')
+def projects_fs():
+    return render_template('fs.html')
+
+@app.route('/projects/ocv')
+def projects_ocv():
+    return render_template('ocv.html')
+
 
 if __name__ == '__main__':
     app.run()
